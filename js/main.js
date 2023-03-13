@@ -30,4 +30,11 @@ function draw(){
      }
      t += 0.000004;
      return t %= 2 * Math.PI;
+
+};
+
+function run(){
+    window.requestAnimationFrame(run);
+    draw();
 }
+run();
