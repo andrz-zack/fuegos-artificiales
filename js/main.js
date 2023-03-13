@@ -18,10 +18,10 @@ function draw(){
      
      let foo, i, j, r;
      foo = Math.sin(t) * 2 * Math.PI;
-     for (i = 0; i < 400; ++i){
-        r = 400 * Math.sin(i * foo);
+     for (i = 0; i < 450; ++i){
+        r = 450 * Math.sin(i * foo);
         $.globalCompositeOperation = '';
-        $.fillStyle = 'hsla('+i + 12 + ', 100%, 60%, 1)';
+        $.fillStyle = 'hsla('+i + 14 + ', 90%, 40%, 1)';
         $.beginPath();
         $.arc(Math.sin(i) * r + (c.width / 2),
             Math.cos(i) * r + (c.height / 2),
